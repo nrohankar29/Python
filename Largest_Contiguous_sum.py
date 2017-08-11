@@ -13,4 +13,12 @@ def large_count_sum(arr):
 
 	return max_sum
 
-print large_count_sum([1,2,-1,3,4,10,10,-10,-1])
+t = int(input())
+
+for i in range(t):
+
+	n = int(input())
+
+	arr1 = list(map(int, input().split()))
+
+	print(large_count_sum(arr1))
