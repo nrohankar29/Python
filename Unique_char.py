@@ -1,3 +1,9 @@
+#Python trick
+
+#def uniq_char(s):
+#	return len(set(s)) == len(s)
+
+
 def uniq_char(s):
 
 	for i in range(len(s)):
