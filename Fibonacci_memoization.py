@@ -1,4 +1,4 @@
-n = 10
+n = 11
 cache = [None] * (n+1)
 
 def fib_dyn(n):
