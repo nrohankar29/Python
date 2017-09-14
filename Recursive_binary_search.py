@@ -22,6 +22,6 @@ def rec_bin_search(arr,ele):
 
 				return rec_bin_search(arr[mid+1:],ele)
 
-arr = [1,2,3,4,5,6,7,8,9,10]
+arr = list(map(int,input().split()))
 
-print(rec_bin_search(arr,13))
+print(rec_bin_search(arr,int(input())))
